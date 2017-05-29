@@ -20,6 +20,13 @@ $ apt-get install osmctools
 $ osmconvert florida-latest.osm.pbf -B=TheVillages.poly --out-pbf > TheVillages.osm.pbf
 ```
 
+### Install OSRM
+
+```
+$ docker pull osrm/osrm-backend
+$ docker pull osrm/osrm-frontend
+```
+
 ### Build OSRM Backend
 
 ```
@@ -31,7 +38,7 @@ $ docker run -d --name osrm-backend -p 5000:5000 -v $(pwd):/data osrm/osrm-backe
 ### Start OSRM Frontend
 
 ```
-$ docker run -d --name osrm-frontend -p 9966:9966 osrm/osrm-frontend
+$ docker run -d --name osrm-frontend -p 9966:9966 -e BACKEND="https://golfcart.v1.addxy.com" osrm/osrm-frontend
 ```
 
 ### References
