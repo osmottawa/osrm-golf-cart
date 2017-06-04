@@ -74,11 +74,13 @@ local profile = {
   access_tags_hierarchy = Sequence {
   	'bicycle',
   	'vehicle',
-  	'access'
+  	'access',
+    'golf_cart'
   },
 
   restrictions = Set {
-  	'bicycle'
+  	'bicycle',
+    'golf_cart'
   },
 
   cycleway_tags = Set {
@@ -314,6 +316,7 @@ function way_function (way, result)
   local foot_forward = way:get_value_by_key("foot:forward")
   local foot_backward = way:get_value_by_key("foot:backward")
   local bicycle = way:get_value_by_key("bicycle")
+  local golf_cart = way:get_value_by_key("golf_cart")
 
 
   -- speed
