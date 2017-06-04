@@ -19,6 +19,13 @@ $ wget http://download.geofabrik.de/north-america/us/florida-latest.osm.pbf
 
 ```
 $ apt-get install osmctools
+```
+Clip from Poly
+```
+$ osmupdate "florida-latest.osm.pbf" "TheVillages-temp.osm.pbf" -B="TheVillages.poly" -v --keep-tempfiles
+```
+**OR**
+```
 $ osmconvert florida-latest.osm.pbf -B=TheVillages.poly --out-pbf > TheVillages.osm.pbf
 ```
 
