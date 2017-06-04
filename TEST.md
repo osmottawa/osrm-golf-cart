@@ -17,7 +17,7 @@
 - [Test 15 - Shortcut threw Golfcourse parking](https://golfcart.addxy.com/?z=15&loc=28.945209,-81.939447&loc=28.946124,-81.940702)
 - [Test 16 - Zip threw parking lot](https://golfcart.addxy.com/?z=15&loc=28.953513,-81.941716&loc=28.954104,-81.941389)
 - [Test 17 - Country Club parking](https://golfcart.addxy.com/?z=15&loc=28.950964,-81.946437&loc=28.95149,-81.946657)
-- [Test 18 (**CONFIRM**) - How to get to mall?](https://golfcart.addxy.com/?z=15&loc=28.950654,-81.954736&loc=28.951452,-81.957386)
+- [Test 18 (**CONFIRM**) - Getting to the mall MUST use bridge](https://golfcart.addxy.com/?z=15&loc=28.950654,-81.954736&loc=28.951452,-81.957386)
 - [Test 19 - Shortcut behind building](https://golfcart.addxy.com/?z=15&loc=28.94811,-81.949591&loc=28.948232,-81.951082)
 - [Test 20 - Lets go in the Golf Club](https://golfcart.addxy.com/?z=15&loc=28.96543,-81.960513&loc=28.966735,-81.96113)
 - [Test 21 - Missing residential Road](https://golfcart.addxy.com/?z=15&loc=28.960995,-81.960792&loc=28.960638,-81.962122)
