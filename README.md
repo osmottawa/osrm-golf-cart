@@ -34,13 +34,22 @@ $ git clone https://github.com/osmottawa/osrm-frontend && \
 ### Build OSRM Backend
 
 ```
-$ docker run --rm -it -v $(pwd):/data osrm/osrm-backend \
-  osrm-extract -p /opt/bicycle.lua /data/TheVillages.osm.pbf
+$ docker run --rm -it \
+  -v $(pwd)/profiles/golfcart.lua:/opt/golfcart.lua \
+  -v $(pwd)/data:/data \
+  osrm/osrm-backend \
+  osrm-extract -p /opt/golfcart.lua /data/TheVillages.osm.pbf
 
-$ docker run --rm -it -v $(pwd):/data osrm/osrm-backend \
+$ docker run --rm -it \
+  -v $(pwd)/data:/data \
+  osrm/osrm-backend \
   osrm-contract /data/TheVillages.osrm
 
-$ docker run -d --name osrm-backend -p 5000:5000 -v $(pwd):/data osrm/osrm-backend \
+$ docker run -d \
+  --name osrm-backend \
+  -p 5000:5000 \
+  -v $(pwd)/data:/data \
+  osrm/osrm-backend \
   osrm-routed /data/TheVillages.osrm
 ```
 
