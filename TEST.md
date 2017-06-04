@@ -75,3 +75,5 @@
 - [Test 73 - New development](https://golfcart.addxy.com/?z=15&loc=28.940205,-82.023561&loc=28.939604,-82.01648)
 - [Test 74 - New development](https://golfcart.addxy.com/?z=15&loc=28.920016,-82.045212&loc=28.919734,-82.051864)
 - [Test 75 - New development](https://golfcart.addxy.com/?z=15&loc=28.907583,-82.032657&loc=28.905469,-82.033292)
+- [Test 76 - Vaughn Way](https://golfcart.addxy.com/?z=15&loc=28.846648,-81.986077&loc=28.850169,-81.943320)
+- [Test 77 (**CONFIRM**) - South End TheVillages](https://golfcart.addxy.com/?z=15&loc=28.804820,-82.015944&loc=28.839561,-82.006416)
