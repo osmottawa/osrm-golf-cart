@@ -67,7 +67,7 @@
 - [Test 65 - New Villa](https://golfcart.addxy.com/?z=15&loc=28.865647,-81.990613&loc=28.865939,-81.988049)
 - [Test 66 - No more cycleway](https://golfcart.addxy.com/?z=15&loc=28.864515,-81.962643&loc=28.864529,-81.963549)
 - [Test 67 - Golf Cart parking lot only - Test no vehicles allowed](https://golfcart.addxy.com/?z=15&loc=28.859371,-81.975968&loc=28.859878,-81.976848)
-- [Test 68 (**CONFIRM**) - Can't cross main street](https://golfcart.addxy.com/?z=15&loc=28.864736,-81.957246&loc=28.86654,-81.954982)
+- [Test 68 (**CONFIRM**) - Not allowed to cross highway(County Road 466A)](https://golfcart.addxy.com/?z=15&loc=28.864736,-81.957246&loc=28.86654,-81.954982)
 - [Test 69 - No more cycleway](https://golfcart.addxy.com/?z=15&loc=28.864515,-81.962643&loc=28.864529,-81.963549)
 - [Test 70 - Golf Cart parking lot only - Test no vehicles allowed](https://golfcart.addxy.com/?z=15&loc=28.859371,-81.975968&loc=28.859878,-81.976848)
 - [Test 71 - Can't cross main street](https://golfcart.addxy.com/?z=15&loc=28.864736,-81.957246&loc=28.86654,-81.954982)
