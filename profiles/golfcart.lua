@@ -20,7 +20,7 @@ local default_speed = 15
 local walking_speed = 6
 
 local profile = {
-  default_mode              = mode.cycling,
+  default_mode              = mode.golfcart,
   default_speed             = 15,
   oneway_handling           = true,
   traffic_light_penalty     = 2,
