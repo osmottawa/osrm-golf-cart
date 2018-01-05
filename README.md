@@ -42,7 +42,6 @@ $ git clone https://github.com/osmottawa/osrm-frontend && \
 
 ```
 $ sudo docker run --rm -it \
-  -v $(pwd)/profiles/golfcart.lua:/opt/golfcart.lua \
   -v $(pwd)/data:/data \
   osrm/osrm-backend \
   osrm-extract -p /opt/bicycle.lua /data/florida-latest.osm.pbf
