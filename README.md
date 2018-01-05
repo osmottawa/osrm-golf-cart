@@ -65,7 +65,7 @@ $ sudo docker run -d \
 ```
 $ sudo docker run -d --name osrm-frontend -p 9966:9966 \
   -e OSRM_CENTER="28.915621,-81.982212" \
-  -e OSRM_BACKEND="https://api.villagesgps.com" \
+  -e OSRM_BACKEND="https://api.villagesgps.com:8080" \
   osrm/osrm-frontend
 ```
 
