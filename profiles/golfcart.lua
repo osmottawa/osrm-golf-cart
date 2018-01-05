@@ -4,7 +4,7 @@ api_version = 1
 local find_access_tag = require("lib/access").find_access_tag
 local Set = require('lib/set')
 local Sequence = require('lib/sequence')
-local Handlers = require("lib/handlers")
+local Handlers = require("lib/way_handlers")
 local next = next       -- bind to local for speed
 local limit = require("lib/maxspeed").limit
 
