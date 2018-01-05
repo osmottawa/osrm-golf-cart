@@ -45,7 +45,7 @@ $ sudo docker run --rm -it \
   -v $(pwd)/profiles/golfcart.lua:/opt/golfcart.lua \
   -v $(pwd)/data:/data \
   osrm/osrm-backend \
-  osrm-extract -p /opt/golfcart.lua /data/florida-latest.osm.pbf
+  osrm-extract -p /opt/bicycle.lua /data/florida-latest.osm.pbf
 
 $ sudo docker run --rm -it \
   -v $(pwd)/data:/data \
