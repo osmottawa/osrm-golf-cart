@@ -22,7 +22,7 @@ $ apt-get install osmctools
 ```
 Clip from Poly
 ```
-$ osmupdate "florida-latest.osm.pbf" "TheVillages-temp.osm.pbf" -B="TheVillages.poly" -v --keep-tempfiles
+$ osmupdate "florida-latest.osm.pbf" "TheVillages.osm.pbf" -B="TheVillages.poly" -v --keep-tempfiles
 ```
 **OR**
 ```
