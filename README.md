@@ -44,19 +44,19 @@ $ git clone https://github.com/osmottawa/osrm-frontend && \
 $ sudo docker run --rm -it \
   -v $(pwd)/data:/data \
   osrm/osrm-backend \
-  osrm-extract -p /opt/bicycle.lua /data/florida-latest.osm.pbf
+  osrm-extract -p /opt/bicycle.lua /data/TheVillages.osm.pbf
 
 $ sudo docker run --rm -it \
   -v $(pwd)/data:/data \
   osrm/osrm-backend \
-  osrm-contract /data/florida-latest.osrm
+  osrm-contract /data/TheVillages.osrm
 
 $ sudo docker run -d \
   --name osrm-backend \
   -p 5000:5000 \
   -v $(pwd)/data:/data \
   osrm/osrm-backend \
-  osrm-routed /data/florida-latest.osrm
+  osrm-routed /data/TheVillages.osrm
 ```
 
 ### Start OSRM Frontend
